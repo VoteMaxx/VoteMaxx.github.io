@@ -3320,7 +3320,7 @@ input, select, textarea {
 					display: block;
 					height: 2px;
 					position: absolute;
-					top: 1rem;
+					top: 0.96rem;
 				}
 
 				#wrapper > section > header h1:after, #wrapper > section > header h2:after {
