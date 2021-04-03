@@ -3354,9 +3354,9 @@ input, select, textarea {
 					margin-top: 6rem;
 				}
 
-			#wrapper > section.intro {
+			/* #wrapper > section.intro {
 				align-items: center;
-			}
+			} */
 
 				#wrapper > section.intro > header {
 					padding-top: 4rem;
