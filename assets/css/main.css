@@ -176,13 +176,30 @@ input, select, textarea {
 		-ms-transition: border-bottom-color 0.25s ease-in-out;
 		transition: border-bottom-color 0.25s ease-in-out;
 		text-decoration: none;
-		color: #151721;
+		color: #072f5f;
 		border-bottom: dotted 1px;
 	}
 
 		a:hover {
 			text-decoration: none;
 			border-bottom-color: transparent;
+			color: #f95f53;
+		}
+
+		.items li a:hover {
+			color: white;
+			-moz-transition: background-color 0.25s ease-in-out, box-shadow 0.25s ease-in-out, color 0.25s ease-in-out;
+			-webkit-transition: background-color 0.25s ease-in-out, box-shadow 0.25s ease-in-out, color 0.25s ease-in-out;
+			-ms-transition: background-color 0.25s ease-in-out, box-shadow 0.25s ease-in-out, color 0.25s ease-in-out;
+			transition: background-color 0.25s ease-in-out, box-shadow 0.25s ease-in-out, color 0.25s ease-in-out;
+		}
+
+		.icons li a:hover {
+			color: white;
+			-moz-transition: background-color 0.25s ease-in-out, box-shadow 0.25s ease-in-out, color 0.25s ease-in-out;
+			-webkit-transition: background-color 0.25s ease-in-out, box-shadow 0.25s ease-in-out, color 0.25s ease-in-out;
+			-ms-transition: background-color 0.25s ease-in-out, box-shadow 0.25s ease-in-out, color 0.25s ease-in-out;
+			transition: background-color 0.25s ease-in-out, box-shadow 0.25s ease-in-out, color 0.25s ease-in-out;
 		}
 
 	strong, b {
@@ -2761,6 +2778,7 @@ input, select, textarea {
 				line-height: 2.25rem;
 				border-radius: 2.25rem;
 				display: inline-block;
+				font-size: 1.25rem;
 			}
 
 				ul.icons li .icon:before {
@@ -2769,6 +2787,7 @@ input, select, textarea {
 
 				ul.icons li .icon:hover {
 					background-color: rgba(7,47,95, 0.1);
+					font-size: 1.25rem;
 				}
 
 /* Table */
