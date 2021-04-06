@@ -3952,6 +3952,8 @@ input, select, textarea {
 		float: right;
 		height: 3rem;
 		line-height: 3rem;
+		max-width: 50%;
+		padding: 0 1.5rem;
 	}
 	
 	/* #getaddress_dropdown {
